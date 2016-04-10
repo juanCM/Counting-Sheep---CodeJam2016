@@ -11,15 +11,6 @@ int ans;
 bool is_cero,is_one,is_two,is_three,is_four,is_five,is_six,is_seven,is_eight,is_nine = false;
 char another[1000000];
 
-int findNmb(char x[], int n) { 
-	
-	int i = atoi(num);
-	i*=n+1;
-	if(count == 10){
-		return i;
-	}
-	return findNmb(another,n+1); 			
-}
 
 int main(int argc, char *argv[]) {
 	cin >> t;
